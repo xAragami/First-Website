@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="origin">
+    <title>Strona - Szymon Menc</title>
+
+    <!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap" rel="stylesheet">  
+    <!-- FONT AWESOME -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <!-- STYLE -->
+<link rel="stylesheet" href="style.css">
+
+<script type="text/javascript" src="scripts.js"></script>
+</head>
+
+
+<body>
+
+
+<header>
+
+
+<main>
+<!-- NAWIGACJA -->
+<div class="main-nav">
+    <div class="logo">
+
+    </div>
+    <div class="hamburger-menu">
+        <span class="bar"></span>
+    </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="index.html">Początek Strony</a></li>
+                <li class="nav-item"><a class="nav-link" href="#aboutme">O mnie</a></li>
+                <li class="nav-item"><a class="nav-link" href="#hobby">Zainteresowania</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Umiejętności</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+            </ul>
+</div>
+</header>
+
+<!-- BANNER -->
+<section class="banner">
+    <div class="banner-clipped">
+        <div class="banner-textbox">
+            <h1 class="main-heading">
+                Szymon Menc<br>Front End<br> Developer
+            </h1>
+            <h2 class="sub-heading">„Wszystko jest trudne zanim stanie się proste.“ <br>- Thomas Fuller</h2>
+            <a href="" class="cta-btn">Napisz do mnie</a>
+        </div>
+    </div>
+</section>
+
+<!-- O MNIE -->
+<section class="aboutme clearfix" id="aboutme">
+    <div class="container">
+        <div class="aboutme-content">
+            <div class="aboutme-textbox">
+                <p class="aboutme-hello">Cześć! Jestem</p>
+                <h2 class="aboutme-heading">Szymon<br>chciałbym spełnić<br> <span>aspiracje zawodowe </span><br>i wejść do branzy <span>IT</span></h2>
+                <p>
+                    Mam 27 lat i pochodzę z Jeleniej Góry, ale na codzień mieszkam we Wrocławiu.
+Od młodego lubię spędzać czas przy komputerze. Uważam, że to jeden z najważniejszych wynalazków, który w połączeniu z internetem daje nam nieograniczone możliwości.
+Ekspresowe szukanie informacji, wiedzy, komunikowanie się z innymi, granie w gry - to tylko pare korzyści jako otworzył przede mną świat IT.
+Próbowałem swoich sił w różnych branżach i czułem, że nie wykorzystuję w nich odpowiednio moich możliwości i nie czuję satysfakcji.
+Tak jak mówiłem świat IT jest mi obecna od wielu lat, ale dopiero jakiś czas temu postanowiłem rozwinąć swoje kompetencje i zostać Programistą.
+                </p>
+                <div class="aboutme-quote">
+                    <p>
+                        „Nie możesz zmienić tego, kim jesteś, tylko to, co robisz”.<br>
+                        – Philip Pullman</p>
+                </div>
+            </div>
+            <div class="aboutme-flank">
+                <div class="flank-top">
+                    <div class="flank-img"></div>
+                </div>
+                <div class="flank-bottom">
+                    <div class="flank-img2"></div>
+                </div>
+                <!-- <img class="aboutme-img" src="./images/me.png" alt="" srcset=""> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MOJE ZAINTERESOWANIA -->
+<section class="hobby clearfix" id="hobby">
+    <div class="container">
+        <div class="hobby-headbox">
+            <h2 class="hobby-heading">Lubię spędzać czas</h2>
+        </div>
+        <div class="hobby-flexbox">
+            <div class="item">
+                <p>Siedząc przy komputerze.</p>
+            </div>
+            <div class="item">
+                <p>Ucząć się nowych rzeczy.</p>
+            </div>
+            <div class="item">
+                <p>Wędrując po górach.</p>
+            </div>
+            <div class="item">
+                <p>Jezdżąc rowerem po lesie.</p>
+            </div>
+            <div class="item">
+                <p>Zwiedzając nowe miejsca.</p>
+            </div>
+            <div class="item">
+                <p>Fantazjując</p>
+            </div>
+        </div>       
+</div>
+</section>
+
+<!-- SPACE -->
+<!-- <div class="space clearfix">
+    <div class="clip-path">
+
+    </div>
+</div> -->
+
+<!-- Moje Umiejętności -->
+<section class="skills clearfix" id="skills">
+<div class="container">
+<div class="skills-content">    
+    <div class="skills-title">
+        <h2 class="skills-heading">Umiejętności</h2>
+    </div>
+    <div class="skills-box">
+        <div class="skills-menu">
+            <div class="skills-card skills-item1" onclick="toggleVisibility('Target1');"> 
+                    <div class="percent">
+                        <svg>
+                            <circle cx="105" cy="105" r="100"></circle>
+                            <circle cx="105" cy="105" r="100" style="--percent: 80"></circle>
+                        </svg>
+                    </div>
+                    <div class="card-number">
+                        <h4>80<span>%</span></h4>
+                    </div>
+                    <div class="card-title">
+                        <h3>HTML</h3>
+                    </div>
+            </div>
+            <div class="skills-card skills-item2" onclick="toggleVisibility('Target2');">
+                <div class="percent">
+                    <svg>
+                        <circle cx="105" cy="105" r="100"></circle>
+                        <circle cx="105" cy="105" r="100" style="--percent: 65"></circle>
+                    </svg>
+                </div>
+                <div class="card-number">
+                    <h4>65<span>%</span></h4>
+                </div>
+                <div class="card-title">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="skills-card skills-item3" onclick="toggleVisibility('Target3');">
+                <div class="percent">
+                    <svg>
+                        <circle cx="105" cy="105" r="100"></circle>
+                        <circle cx="105" cy="105" r="100" style="--percent: 20"></circle>
+                    </svg>
+                </div>
+                <div class="card-number">
+                    <h4>20<span>%</span></h4>
+                </div>
+                <div class="card-title">
+                    <h3>Javascript</h3>
+                </div>
+            </div>
+            <div class="skills-card skills-item4" onclick="toggleVisibility('Target4');">
+                <div class="percent">
+                    <svg>
+                        <circle cx="105" cy="105" r="100"></circle>
+                        <circle cx="105" cy="105" r="100" style="--percent: 10"></circle>
+                    </svg>
+                </div>
+                <div class="card-number">
+                    <h4>10<span>%</span></h4>
+                </div>
+                <div class="card-title">
+                    <h3>PHP</h3>
+                </div>
+            </div>
+        </div>
+        <div class="target-box">
+            <div class="target" id="Target1">
+                HTML: Hipertekstowy Język Znaczników - uważam, że poznałem wystarczająco,
+                    by stworzyć przejrzystą, czytelną strukturę, która pozwoli mi zbudować nowoczesną, responsywną i zgodną z trendami UX stronę.
+                    W oparciu o dobrą znajomość HTML chce dalej rozwijać swoję umiejętności programowania.
+            </div>
+            <div class="target" id="Target2" style="display: none;">
+                CSS: Kaskadowe Arkusze Stylów - dotyczas podczas mojej przygody z front endem
+                    skupiałem się głównie na poznaniu tego prekursora. Jego możliwości są niesamowite i napawają mnie optymiznem przed dalszą nauką.
+                    Czuję się dość pewny i samodzielny używając CSS, ale wciąż chcę rozwijać swoje umiejętności i równać do ludzi, którzy przy pomocy
+                    CSS są w stanie tworzyć niesamowite rzeczy.
+    </div>
+            <div class="target" id="Target3" style="display: none;">
+                Wciaż jestem dopiero na początku swojej przygody z Javascript. Po obejrzeniu kursów jestem w stanie w pewnym stopniu rozumieć
+                    działanie tego języka, ale mówiąc uczciwię umiejętność stworzenia samodzielnego projektu od A do Z, czy nawet od G do P mam dopiero przed sobą.
+                    Porównując programowanie w Javascript do gotowania to jestem w stanie odtworzyć przepis na smaczne danie, odpowiednio je doprawić
+                    czy zmodyfikować według własnych potrzeb, ale na szacunek mistrzów kuchni będę musiał długo pracować.
+            </div>
+            <div class="target" id="Target4" style="display: none;">
+                Priorytetem są dla mnie języki typowo "frontendowe". Moja znajomość PHP jest podstawowa,
+                ale zamierzam stopniowo poznawać część backendową, by w dalszych etapach mojej nauki uzupełniać swą wiedzę.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SKILLS MOBILE -->  
+<div class="skills-mobile clearfix">
+    <div class="skills-mobile-box">
+        <div class="skills-mobile-heading">
+            <h2">Umiejętności</h2>
+        </div>
+        <div class="skills-mobile-item">
+            <div class="skills-mobile-title">
+                <div class="skills-mobile-h3">
+                    <h3>HTML</h3>
+                </div>
+                <div class="skills-stars">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/empty-star.png" alt="">
+                </div>
+            </div>
+            <div class="skills-mobile-text">
+                <p>
+                    HTML: Hipertekstowy Język Znaczników - uważam, że poznałem wystarczająco,
+                    by stworzyć przejrzystą, czytelną strukturę, która pozwoli mi zbudować nowoczesną, responsywną i zgodną z trendami UX stronę.
+                    W oparciu o dobrą znajomość HTML chce dalej rozwijać swoję umiejętności programowania.
+                </p>
+            </div>
+        </div>
+        <div class="skills-mobile-item">
+            <div class="skills-mobile-title">
+                <div class="skills-mobile-h3">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skills-stars">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/half-star.png" alt="">
+                    <img src="./images/empty-star.png" alt="">
+                </div>
+            </div>
+            <div class="skills-mobile-text">
+                <p>
+                    CSS: Kaskadowe Arkusze Stylów - dotyczas podczas mojej przygody z front endem
+                    skupiałem się głównie na poznaniu tego prekursora. Jego możliwości są niesamowite i napawają mnie optymiznem przed dalszą nauką.
+                    Czuję się dość pewny i samodzielny używając CSS, ale wciąż chcę rozwijać swoje umiejętności i równać do ludzi, którzy przy pomocy
+                    CSS są w stanie tworzyć niesamowite rzeczy.
+                </p>
+            </div>
+        </div>
+        <div class="skills-mobile-item">
+            <div class="skills-mobile-title">
+                <div class="skills-mobile-h3">
+                    <h3>Javascript</h3>
+                </div>
+                <div class="skills-stars">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/half-star.png" alt="">
+                    <img src="./images/empty-star.png" alt="">
+                    <img src="./images/empty-star.png" alt="">
+                    <img src="./images/empty-star.png" alt="">
+                </div>
+            </div>
+            <div class="skills-mobile-text">
+                <p>
+                    Wciaż jestem dopiero na początku swojej przygody z Javascript. Po obejrzeniu kursów jestem w stanie w pewnym stopniu rozumieć
+                    działanie tego języka, ale mówiąc uczciwię umiejętność stworzenia samodzielnego projektu od A do Z, czy nawet od G do P mam dopiero przed sobą.
+                    Porównując programowanie w Javascript do gotowania to jestem w stanie odtworzyć przepis na smaczne danie, odpowiednio je doprawić
+                    czy zmodyfikować według własnych potrzeb, ale na szacunek mistrzów kuchni będę musiał długo pracować.
+                </p>
+            </div>
+        </div>
+        <div class="skills-mobile-item">
+            <div class="skills-mobile-title">
+                <div class="skills-mobile-h3">
+                    <h3>PHP</h3>
+                </div>
+                <div class="skills-stars">
+                    <img src="./images/star.png" alt="">
+                    <img src="./images/empty-star.png" alt="">
+                    <img src="./images/empty-star.png" alt="">
+                    <img src="./images/empty-star.png" alt="">
+                    <img src="./images/empty-star.png" alt="">
+                </div>
+            </div>
+            <div class="skills-mobile-text">
+                <p>
+                    Priorytetem są dla mnie języki typowo "frontendowe". Moja znajomość PHP jest podstawowa,
+                    ale zamierzam stopniowo poznawać część backendową, by w dalszych etapach mojej nauki uzupełniać swą wiedzę.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>  
+</section>
+
+    <!-- Kontakt -->
+<section class="contact clearfix" id="contact">
+<div class="container">
+<div class="contact-content">
+    <div class="contact-box">
+            <div class="contact-leftside">
+            
+            </div>
+            <div class="contact-rightside">
+                <h2 class="contact-heading">Kontakt</h2>
+                <form method="post" name="contactform" action="https://formsubmit.co/szymonmenc@gmail.com">
+                    <input type="text" name="name" id="name" class="field" placeholder="Twoję imię" required>
+                    <input type="email" name="email" id="email" class="field" placeholder="Twój e-mail" required>
+                    <textarea class="field area" name="message" id="message" placeholder="Wiadomość..." required></textarea>
+                    <input class="contact-btn" value="Wyślij wiadomość" type="submit">
+                </form> 
+            </div>        
+    </div>
+</div>    
+</div>
+</section>
+
+</main>
+
+<footer class="footer-box clearfix">
+    <h4 class="footer-heading">Szymon Menc Front End Developer &copy; 2021</h4>
+
+</footer>
+
+
+<!-- JQUERY -->
+<script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script>
+
+    //hamburgermenu
+
+    const mainNav = document.querySelector('.main-nav');
+    const navList = document.querySelector('.nav-list');
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    hamburgerMenu.addEventListener('click', function (){
+        mainNav.classList.toggle('open');
+
+    });
+
+
+    //skills
+
+    var divs = ["Target1", "Target2", "Target3", "Target4"];
+    var visibleDivId = null;
+    function toggleVisibility(divId) {
+        if(visibleDivId === divId) {
+    //visibleDivId = null;
+        } else {
+        visibleDivId = divId;
+  }
+  hideNonVisibleDivs();
+}
+function hideNonVisibleDivs() {
+  var i, divId, div;
+  for(i = 0; i < divs.length; i++) {
+    divId = divs[i];
+    div = document.getElementById(divId);
+    if(visibleDivId === divId) {
+      div.style.display = "block";
+    } else {
+      div.style.display = "none";
+    }
+  }
+}
+
+
+    // GSAP
+
+    gsap.fromTo('.banner-clipped', {scaleX: 0}, {duration: 1, scaleX: 1});
+    gsap.fromTo('.logo', {x: -200, opacity: 0}, {duration: 1, delay: .5, x: 0, opacity: 1});
+    gsap.fromTo('.hamburger-menu', {x: 200, opacity: 0}, {duration: 1, delay: 1, x: 0, opacity: 1});
+    gsap.fromTo('.banner-textbox', {yPrecent: 40, opacity: 0}, {duration: 1, delay: 1.3, yPrecent: -50, opacity: 1});
+</script>
+
+</body>
+</html>
